@@ -9,17 +9,17 @@
 h1{
     font-size: 50px;
     line-height: 64px;
-    color: #222;
+    color: rgb(0, 0, 0);
 
 }
 h2{
     font-size: 46px;
     line-height: 54px;
-    color: #222;
+    color: rgb(176, 189, 97);
 }
 h4{
     font-size: 20px; 
-    color: #222;
+    color: rgb(208, 148, 148);
 } 
 h6{
     font-weight: 700;
@@ -617,5 +617,52 @@ footer .copyright{
         text-align: start;
     }
 
+}
+
+/* shop-page */
+
+#page-header{
+    background-image: url(/img/hero2.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#pagination{
+    text-align: center;
+
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+/* single Product */
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
 }
     
